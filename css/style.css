@@ -1,0 +1,16 @@
+body {
+    background-color: #f2d38b;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Roboto;
+}
