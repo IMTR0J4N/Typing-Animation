@@ -3,14 +3,34 @@ body {
 }
 
 main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
     height: 100vh;
     width: 100vw;
 }
 
 h1 {
+    position: absolute;
+    left: 30%;
+    top: 40%;
     font-size: 50px;
     font-family: Roboto;
+}
+
+span {
+    animation: infinite 1000ms cursor;
+    transition-duration: 200ms;
+}
+
+@keyframes cursor {
+    0% {
+        border-right: 2px transparent;
+    }
+
+    50% {
+        border-right: 2px transparent black;
+    }
+
+    100% {
+        border-right: 2px solid black;
+    }
 }
