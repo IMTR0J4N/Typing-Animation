@@ -17,20 +17,20 @@ h1 {
 }
 
 span {
-    animation: infinite 1000ms cursor;
+    animation: infinite alternate 600ms cursor;
     transition-duration: 200ms;
 }
 
 @keyframes cursor {
     0% {
-        border-right: 2px transparent;
+        border-right: 3px transparent;
     }
 
     50% {
-        border-right: 2px transparent black;
+        border-right: 3px transparent black;
     }
 
     100% {
-        border-right: 2px solid black;
+        border-right: 3px solid black;
     }
 }
